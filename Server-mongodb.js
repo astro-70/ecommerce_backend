@@ -6,8 +6,8 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use("/users", require("./Routes/UserRouters"));
-app.use("/contact", require("./Routes/ContactRoutes"));
+app.use("/users", require("./Routes/userrouters"));
+app.use("/contact", require("./Routes/contactroutes"));
 
 // Mongoose connection options
 const connectDB = async () => {
