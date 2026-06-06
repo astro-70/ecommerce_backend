@@ -2,10 +2,10 @@
   "name": "fullstack_backend",
   "version": "1.0.0",
   "description": "AURYN Fashion E-commerce Backend",
-  "main": "Server-mongodb.js",
+  "main": "server-mongodb.js",
   "scripts": {
-    "start": "node Server-mongodb.js",
-    "dev": "node Server-mongodb.js",
+    "start": "node server-mongodb.js",
+    "dev": "node server-mongodb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
