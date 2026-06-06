@@ -1,10 +1,11 @@
 {
   "name": "fullstack_backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AURYN Fashion E-commerce Backend",
+  "main": "Server-mongodb.js",
   "scripts": {
     "start": "node Server-mongodb.js",
+    "dev": "node Server-mongodb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,5 +19,8 @@
     "express": "^5.2.1",
     "mongoose": "^9.6.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
 }
